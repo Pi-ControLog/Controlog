@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #cb97d2, #959595);
+  }
+
+/* CABEÇALHO */
+.header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+}
+
+.lista-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-header {
+    left: 5px;
+    top: 5px;
+}
+
+.list-header {
+    color: white;
+    font-size: x-large;
+    display: inline; 
+    margin-right: 60px;
+}
+
+.item-header {
+    vertical-align: super;
+    color: white;
+    text-decoration: none;
+}
+
+  /*FOOTER*/
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size: small;
+}
+
+/* BANNER */
+  .banner {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.logo-banner-home {
+    max-width: 400px;
+    align-items: center;
+}
+
+/*SERVIÇOS*/
+.servicos-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.servico {
+    background: linear-gradient(-45deg, #b7aeae, rgba(149, 149, 149, 0.192));
+    color: white;
+    flex-basis: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: x-large;
+    align-items: center;
+    border:3px solid rgb(128, 0, 128);
+    border-radius:20px;
+}
+
+.logo-servico {
+    max-width: 200px;
+    align-items: center;
+}
+/*Botões*/
+.button-servico, .button-about {
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    margin: 10px;
+    width: 150px;
+    height: 60px;
+    background-color: rgba(22, 22, 22, 0.245);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-servico:hover, .button-servico:active {
+    background-color: rgba(140, 18, 140, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  .button-about:hover, .button-about:active {
+    background-color: rgba(140, 18, 140, 0.7);
+    color: rgb(255, 255, 255);
+  }

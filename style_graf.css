@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+/* CABEÇALHO */
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  nav ul li a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    vertical-align:middle;
+  }
+
+  /*FOOTER*/
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size: small;
+}
+
+/* BANNER */
+  .banner {
+    background: linear-gradient(-45deg, #cb97d2, #959595);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.logo-banner-home {
+    max-width: 400px;
+    align-items: center;
+}
+
+/*SERVIÇOS*/
+.servicos-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.servico {
+    background-color: #ffffff;
+    flex-basis: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: x-large;
+    align-items: center;
+    border:3px solid rgb(128, 0, 128);
+    border-radius:20px;
+}
+
+.logo-servico {
+    max-width: 200px;
+    align-items: center;
+}
+
+.button-servico {
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    margin: 10px;
+    width: 150px;
+    height: 60px;
+    background-color: rgba(128, 0, 128, 0.5);
+    border: none;
+}
