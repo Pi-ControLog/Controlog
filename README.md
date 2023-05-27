@@ -1,7 +1,10 @@
 # Controlog
 
+<<<<<<< HEAD
 Eduardo viado
 
+=======
+>>>>>>> 7ba6b805683a928e168f6e46f94817679909aca2
 Um parágrafo da descrição do projeto vai aqui
 
 🚀 Começando
@@ -64,4 +67,8 @@ Este projeto está sob a licença (sua licença) - veja o arquivo LICENSE.md par
 Conte a outras pessoas sobre este projeto 📢;
 Convide alguém da equipe para uma cerveja 🍺;
 Um agradecimento publicamente 🫂;
+<<<<<<< HEAD
 etc.
+=======
+etc.
+>>>>>>> 7ba6b805683a928e168f6e46f94817679909aca2
