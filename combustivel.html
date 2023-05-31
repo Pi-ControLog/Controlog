@@ -14,7 +14,7 @@
     <header class="header">
         <nav>
             <ul class="lista-header">
-                <li class="logo-header"><img src="img/Favicon.png" alt="Icon" width="80px"></li>
+                <li style="float:left;" class="list-header"><a><img src="img/Favicon.png" alt="Icon" width="80px"></a></li>
                 <li class="list-header"><a class="item-header" href="home.html">Home</a></li>
                 <li class="list-header"><a class="item-header" href="graficos.html">Gráficos</a></li>
                 <li class="list-header"><a class="item-header" href="combustivel.html">Combustível</a></li>
@@ -30,6 +30,24 @@
             <h1>COMBUSTÍVEL</h1>
             <h2>CONTROLE DE COMBUSTÍVEL DA SUA FROTA</h2>
         </div>
+    </div>
+
+    <!--Formulário-->
+    <div class="form-comb">
+        <label for="date">Data:</label><br>
+        <input type="date" id="date" name="date" value="01/01/2023" size="50" required><br>
+        <label for="placa">Placa:</label><br>
+        <input type="text" id="placa" name="placa" value="ABC1D23" pattern="[a-z]{3}[0-9]{1}[a-z]{1}[0-9]{2}" required><br>
+        <label for="KM">Rodômetro:</label><br>
+        <input type="number" id="km" name="km" required><br>
+        <label for="Litros">Litros:</label><br>
+        <input type="number" id="litros" name="litros"required><br>
+        <label for="Preco">Preço/L (R$):</label><br>
+        <input type="number" id="preco" name="preco" required><br>
+        <label for="posto">Posto:</label><br>
+        <input type="text" id="posto" name="posto" value="Galo Banco" required><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
     </div>
 
     <footer>
