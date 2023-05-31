@@ -16,22 +16,21 @@ body {
 
   }
   
+  .logo-header {
+    float: left;
+    margin-right: 300px;
+  }
+
   .lista-header {
     display: flex;
     align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
-
-  }
-  
-  .logo-header {
-    margin-right: 300px;
-    display: inline;
   }
 
   .list-header {
-    color: white;
+    align-items: center;
     font-size: x-large;
     display: inline; 
     margin-right: 60px;
@@ -40,6 +39,10 @@ body {
 .item-header {
     color: white;
     text-decoration: none;
+}
+
+.item-header:hover {
+  color: rgb(128, 0, 128);
 }
 
   /*FOOTER*/
@@ -106,6 +109,19 @@ footer {
     cursor: pointer;
 }
 
+.button-form {
+  border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: medium;
+    margin: 10px;
+    width: 90px;
+    height: 60px;
+    background-color: rgba(22, 22, 22, 0.245);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
 .button-servico:hover, .button-servico:active {
     background-color: rgba(140, 18, 140, 0.5);
     color: rgb(255, 255, 255);
@@ -116,14 +132,48 @@ footer {
     color: rgb(255, 255, 255);
   }
 
-.form-comb {
-  color: white;
-  text-align: center;
-}
+  .button-form:hover, .button-form:active {
+    background-color: rgba(140, 18, 140, 0.7);
+    color: rgb(255, 255, 255);
+  }
+
 
 input {
   background-color: rgb(255, 255, 255);
   color: black;
   border: 2px solid rgba(140, 18, 140);
   border-radius: 4px;
+}
+
+.form-title {
+  color: white;
+  text-align: center;
+}
+
+.form-comb {
+  max-width: 500px;
+  margin-bottom: 60px;  
+  color: white;
+  text-align: center;
+}
+
+.form-comb form {
+  display: grid;
+  gap: 10px;
+}
+
+.form-comb label {
+  font-size: x-large;
+}
+
+.form-comb input[type="text"],
+.form-comb input[type="number"],
+.form-comb input[type="date"],
+.form-comb textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgba(140, 18, 140);
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 5px;
 }
