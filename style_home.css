@@ -6,7 +6,7 @@ body {
     background: linear-gradient(-45deg, #cb97d2, #959595);
   }
 
-
+  /*HEADER*/
   .header {
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@ footer {
     align-items: center;
 }
 
-/*SERVIÇOS*/
+/*SERVIÇOS HOME*/
 .servicos-home {
     display: flex;
     justify-content: center;
@@ -95,6 +95,7 @@ footer {
     max-width: 200px;
     align-items: center;
 }
+
 /*Botões*/
 .button-servico, .button-about {
     border-radius: 20px;
@@ -137,7 +138,7 @@ footer {
     color: rgb(255, 255, 255);
   }
 
-
+/*formulários*/
 input {
   background-color: rgb(255, 255, 255);
   color: black;
@@ -176,4 +177,69 @@ input {
   border-radius: 4px;
   text-align: center;
   margin-bottom: 5px;
+}
+/*formulário manutenção*/
+.form-manut input[type="text"],
+.form-manut input[type="number"],
+.form-manut input[type="date"],
+.form-manut textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgba(140, 18, 140);
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.manu-title {
+  color: white;
+  text-align: center;
+}
+
+.form-manut {
+  max-width: 500px;
+  margin-bottom: 60px;  
+  color: white;
+  text-align: center;
+}
+
+.form-manut form {
+  display: grid;
+  gap: 10px;
+}
+
+.form-manut label {
+  font-size: medium;
+}
+
+.manut-body {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.manut-body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.manut-body td {
+  border: 1px solid #dddddd7e;
+  text-align: left;
+  padding: 8px;
+}
+
+.manut-body th {
+  border: 1px solid #dddddd7e;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  background-color: black;
+}
+
+.manut-body tr:nth-child(even) {
+  background-color: #fff7f7;
 }

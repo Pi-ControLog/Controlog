@@ -30,7 +30,68 @@
             <h1>MANUTENÇÃO</h1>
             <h2>FERRAMENTAS E CONFIGURAÇÕES DE MANUTENÇÃO</h2>
         </div>
-    </div>
+    </div><br>  
+    <section class="manut-body">
+
+        <!--Formulário-->
+
+        <section class="form-manut">
+            <h1 class="manu-title">Dados da Manutenção:</h1>
+            <label for="date">Data:</label><br>
+            <input type="date" id="date" name="date" required><br>
+
+            <label form="placa">Placa:</label><br>
+            <input type="text" id="placa" name="placa" pattern="[a-z]{3}[0-9]{1}[a-z]{1}[0-9]{2}" required><br>
+
+            <label form="KM">Rodômetro:</label><br>
+            <input type="number" id="km" name="km" required><br>
+
+            <label form="opcao">Funcionário:</label><br>
+            <input type="text" id="posto" name="posto" required><br><br>
+
+        </section>
+
+        <section class="table-manut">
+            <table>
+                <h1 class="manu-title">Peças e Itens:</h1>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário</th>
+                </tr>
+                <tr>
+                    <td>Pneu aro 27 Michelin</td>
+                    <td>4 Un</td>
+                    <td>R$ 210,00</td>
+                </tr>
+                <tr>
+                    <td>Eixo central</td>
+                    <td>1 Un</td>
+                    <td>R$ 2700,00</td>
+                </tr>
+                <tr>
+                    <td>Eixo central</td>
+                    <td>1 Un</td>
+                    <td>R$ 2700,00</td>
+                </tr>
+                <tr>
+                    <td>Eixo central</td>
+                    <td>1 Un</td>
+                    <td>R$ 2700,00</td>
+                </tr>
+                <tr>
+                    <td>Eixo central</td>
+                    <td>1 Un</td>
+                    <td>R$ 2700,00</td>
+                </tr>
+            </table>
+        </section>
+    </section>
+
+    <center>
+    <input class="button-form" type="button" value="Enviar">
+    <input class="button-form" type="reset" value="Redefinir">
+</center>
 
     <footer>
         <p>&copy;2023 Controlog. Todos direitos reservados.</p>
