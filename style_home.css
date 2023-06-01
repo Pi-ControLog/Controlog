@@ -80,7 +80,7 @@ footer {
 }
 
 .servico {
-    background: linear-gradient(-45deg, #b7aeae, rgba(149, 149, 149, 0.192));
+    background: linear-gradient(-45deg, rgba(183, 174, 174, 0.3), rgba(149, 149, 149, 0.3));
     color: white;
     flex-basis: 400px;
     margin: 10px;
