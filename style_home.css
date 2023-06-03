@@ -41,6 +41,11 @@ body {
     color: rgb(128, 0, 128);
   }
 
+.banner {
+  background: linear-gradient(-180deg, #b5b3b3, #7b18c1);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-radius: 0px;
+}  
   /*FOOTER*/
 footer {
     background-color: rgb(0, 0, 0);
@@ -60,6 +65,7 @@ footer {
     align-items: center;
     text-align: center;
     color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo-banner-home {
@@ -85,6 +91,7 @@ footer {
     align-items: center;
     border:3px solid rgb(128, 0, 128);
     border-radius:20px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 29px 0 rgba(0, 0, 0, 0.25);
 }
 
 .logo-servico {
