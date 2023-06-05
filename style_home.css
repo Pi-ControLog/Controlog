@@ -246,3 +246,14 @@ input {
 .manut-body tr:nth-child(even) {
   background-color: #fff7f7;
 }
+
+/*ABOUT TEXTO*/
+.about-txt {
+  text-align: center;
+  color: white;
+  margin: 50px;
+  padding: 10px;
+  border: white solid 2px;
+  border-radius: 20px;
+  max-width: 900px;
+}
